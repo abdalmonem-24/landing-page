@@ -1,0 +1,200 @@
+:root {
+  --primary-dark: #1f2937;
+  --primary-blue: #3882f6;
+  --light-text: #f9faf8;
+  --secondary-text: #e5e7eb;
+}
+
+* {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+body {
+  height: 100vh; /* Make body take full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0% auto;
+}
+
+/* The Header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--primary-dark);
+  color: var(--light-text);
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+/* Class 1 */
+.class1 {
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-dark);
+  gap: 50px;
+  padding: 6em;
+}
+
+.class1 .left {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  gap: 10px;
+  max-width: 450px;
+}
+
+.class1 .main {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--light-text);
+}
+
+.class1 .secondary {
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+
+/* Class 2 */
+.class2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 3em;
+  padding-bottom: 6em;
+  gap: 50px;
+}
+
+.part1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.part2 {
+  display: flex;
+  justify-content: center; /* Distribute space between items */
+  align-items: center;
+  width: 100%; /* Container takes full width of its parent */
+  gap: 50px;
+}
+
+.part2 .text2_2 {
+  max-width: 150px;
+  text-align: center;
+}
+
+.class1 img {
+  height: 240px;
+  max-width: auto;
+}
+
+.part2 img {
+  border: 3px solid var(--primary-blue);
+  border-radius: 12px;
+  max-width: 150px;
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover;
+}
+
+/* Class 3 */
+.class3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-text);
+  padding: 5em;
+}
+
+.class3 .text3_1 {
+  font-size: 36px;
+  font-weight: 300;
+  max-width: 805px;
+  font-style: italic;
+  color: var(--primary-dark);
+}
+
+.class3 .text3_2 {
+  align-self: flex-end;
+  margin-right: 20%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Class4 */
+.class4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7%;
+  padding: 3em;
+  background-color: var(--primary-blue);
+  border-radius: 8px;
+}
+
+.class4 button {
+  border: 2px solid white;
+  margin-right: 10%;
+  width: 150px;
+  height: auto;
+}
+
+.class4 .text4 {
+  display: flex;
+  flex-direction: column;
+  color: var(--light-text);
+  margin-left: 10%;
+}
+
+.class4 .text4_1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  font-size: 18px;
+  color: var(--light-text);
+  background-color: var(--primary-dark);
+  padding: 3em;
+}
+
+button {
+  background-color: var(--primary-blue);
+  color: var(--light-text);
+  font-size: 18px;
+  font-weight: 700;
+  width: fit-content;
+  display: inline-block;
+  border: none;
+  padding: 0.3em 2em;
+  border-radius: 10px;
+}
