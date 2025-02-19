@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
@@ -9,71 +10,82 @@
   </head>
 
   <body>
+
     <header class="header">
       <div class="logo">Header Logo</div>
-      <ul class="links">
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-      </ul>
+      <nav>
+          <ul class="links">
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+          </ul>
+      </nav>
     </header>
-    <section class="class1">
-      <div class="left">
-        <div class="main">This website is awesome</div>
-        <div class="secondary">
+
+    <section id="hero">
+      <div class="hero-text">
+        <h1>This website is awesome</h1>
+        <p class="subtext">
           This website has some subtext that goes here under the main title.
           It's a smaller font and the color is lower contrast
-        </div>
+        </p>
         <button>Sign up</button>
       </div>
-      <img class="img1" src="./assets/img1.png" alt="Website Illustration" />
+      <img class="hero-img" src="./assets/img1.png" alt="Main hero Illustration">
     </section>
-    <section class="class2">
-      <div class="part1">Some random information.</div>
-      <div class="part2">
-        <div class="ele">
-          <img class="img2_1" src="./assets/img2_1.png" alt="Website Illustration" />
-          <div class="text2_2">
+
+    <section class="features">
+      <h2>Some random information.</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <img class="feature-img" src="./assets/img2_1.png" alt="Feature 1" />
+          <p class="feature-text">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
-        <div class="ele">
-          <img class="img2_2" src="./assets/img2_2.png" alt="Website Illustration" />
-          <div class="text2_2">
+        <div class="feature">
+          <img class="feature-img" src="./assets/img2_2.png" alt="Feature 2" />
+          <p class="feature-text">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
-        <div class="ele">
-          <img class="img2_3" src="./assets/img2_3.png" alt="Website Illustration" />
-          <div class="text2_2">
+        <div class="feature">
+          <img class="feature-img" src="./assets/img2_3.png" alt="Feature 3" />
+          <p class="feature-text">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
-        <div class="ele">
-          <img class="img2_4" src="./assets/img2_4.png" alt="Website Illustration" />
-          <div class="text2_2">
+        <div class="feature">
+          <img class="feature-img" src="./assets/img2_4.png" alt="Feature 4" />
+          <p class="feature-text">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
       </div>
     </section>
-    <section class="class3">
-      <div class="text3_1">
+
+    <section class="testimonial">
+      <div class="testimonial-quote">
         This is an inspiring quote, or a testimonial from a customer. Maybe it's
         just filling up space, or maybe people will actually read it. Who know?
         All I know is that it looks nice.
       </div>
-      <div class="text3_2">-Thor, Hero of Thunder</div>
+      <div class="testimonial-author">-Thor, Hero of Thunder</div>
     </section>
-    <section class="class4">
-      <div class="text4">
-        <div class="text4_1">Call to action! It's time!</div>
-        <div class="text4_2">
+
+    <section class="cta">
+      <div class="cta-text">
+        <h2>Call to action! It's time!</h2>
+        <p>
           Sign up for our product by clicking that button right over there!
-        </div>
+        </p>
       </div>
       <button>Sign up</button>
     </section>
-    <footer>Copyright @ The Odin Project 2021</footer>
+
+    <footer>
+      <p>&copy; The Odin Project 2021</p>
+    </footer>
+
   </body>
 </html>
